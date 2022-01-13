@@ -1,0 +1,15 @@
+{
+    "name": "sweetapps.schmuel",
+    "description": "Enable the sweet icons as seen on Geruda Linux",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Sweet Apps",
+    "hooks": {
+        "sweetapps": {
+            "apparmor": "sweetapps.apparmor",
+            "desktop":  "sweetapps.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Schmuel Odradek <apps@schmuel.net>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}
